@@ -1,0 +1,103 @@
+Utilizing the EIV System and Compliance Tools
+Mastering EIV and Compliance Tools
+As affordable property staff, understanding HUD's Enterprise Income Verification (EIV) system and related compliance tools is essential for maintaining program integrity and ensuring residents receive the correct assistance. This lesson will help you confidently use these systems to verify income, resolve discrepancies, and stay compliant with HUD requirements, making your daily work more efficient and accurate.
+
+Knowing what you'll learn in this lesson helps you focus on the skills and knowledge needed to manage compliance effectively. Clear objectives will guide your progress and show how each topic supports your responsibilities.
+
+1
+Understand how the EIV system supports income verification and compliance in HUD programs.
+
+2
+Recognize how EIV integrates with TRACS, IMS/PIC, and other systems.
+
+3
+Learn to interpret and act on EIV income, benefit, and discrepancy reports.
+
+4
+Follow the correct workflow to resolve issues and document actions.
+
+The Enterprise Income Verification (EIV) system is a secure, web-based tool used in HUD rental assistance programs to verify resident income and employment information. EIV pulls data from multiple sources to help property staff confirm that residents are reporting their income accurately. By using EIV, onsite teams can reduce errors, prevent fraud, and ensure that rent subsidies are calculated correctly. The system is a critical part of the compliance process, supporting both initial certifications and annual recertifications.
+
+Key Terms: EIV and Compliance Tools
+Familiarity with EIV and related compliance tools is crucial for effective program administration. Review these key terms to strengthen your understanding and support accurate, compliant operations.
+
+Click to flip
+The Enterprise Income Verification (EIV) system is used to verify resident income and employment for HUD programs.
+
+
+Click to flip
+Tenant Rental Assistance Certification System (TRCS) processes and stores certification and subsidy data for HUD.
+
+
+Click to flip
+Inventory Management System/Public and Indian Housing Information Center (IMS/PIC) is used for data exchange between housing authorities and HUD.
+
+
+Click to flip
+An income discrepancy is a mismatch between reported income and data found in EIV, requiring investigation and resolution.
+
+
+Click to flip
+A data sharing agreement is an arrangement allowing EIV to access data from agencies like SSA and HHS for verification purposes.
+
+EIV Data Sources and Integration
+Understanding where EIV gets its data and how it connects with other systems is essential for accurate reporting and compliance. Explore each tab to learn about the main data sources and their roles.
+
+Social Security Administration (SSA)
+
+Department of Health and Human Services (HHS)
+
+TRACS
+
+IMS/PIC
+The SSA provides EIV with Social Security benefit and income data for residents. This information helps verify reported income and ensures that benefits are correctly included in rent calculations.
+
+Regular updates from SSA allow staff to identify changes in resident benefits and address discrepancies quickly.
+
+Using EIV Reports for Verification
+EIV reports are essential tools for verifying resident information and maintaining compliance. Each report type serves a specific purpose in daily operations. Explore the sections below to learn how to use each report effectively.
+
+
+Income Reports
+Income reports provide a summary of all employment and benefit income for each resident. These reports help staff verify that the income reported by residents matches official records.
+
+Reviewing income reports regularly helps prevent errors and ensures accurate rent calculations.
+
+
+Benefit Reports
+Benefit reports detail federal benefits such as Social Security, Medicare, and Medicaid received by residents. These reports support the verification of non-employment income sources.
+
+Using benefit reports ensures that all sources of income are included in the certification process.
+
+
+Discrepancy Reports
+Discrepancy reports highlight differences between resident-reported income and data found in EIV. These reports alert staff to potential issues that require further investigation.
+
+Timely review and resolution of discrepancies are critical for maintaining program compliance and avoiding penalties.
+
+
+Regularly reviewing EIV reports and addressing any discrepancies helps prevent compliance issues and ensures that tenants receive the appropriate assistance.
+
+Addressing Discrepancies and Ensuring Compliance
+Resolving discrepancies found in EIV reports is essential for maintaining compliance and avoiding penalties. Follow these steps to ensure a thorough and timely resolution.
+
+1
+2
+3
+
+
+
+1 of 5
+Introduction
+Discrepancy resolution ensures that resident information is accurate and that subsidy payments are correct. Addressing discrepancies quickly protects both residents and the property.
+
+
+START
+
+
+
+
+Summary and Next Steps
+In this lesson, you learned how to use the EIV system and related compliance tools to verify income, resolve discrepancies, and maintain HUD compliance. Mastering these tools is vital for accurate reporting and protecting both residents and your property. Continue to apply these skills as you move forward in your role.
+
+Apply your EIV and compliance knowledge as you prepare for the next lesson on monthly onsite workflows for HUD compliance. Staying proactive now will make your future tasks smoother and more efficient.
