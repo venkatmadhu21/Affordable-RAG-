@@ -31,35 +31,42 @@ llm = ChatGoogleGenerativeAI(
 # ---------------------------
 # Question
 # ---------------------------
+print("\nAffordable Housing RAG Assistant Started!")
+print("Press Ctrl+C to exit.\n")
 
-question = input("\nAsk a question: ")
+while True:
+    try:
+        question = input("\nAsk a question: ").strip()
 
-# ---------------------------
-# Retrieve
-# ---------------------------
+        if not question:
+            continue
 
-docs = vector_store.similarity_search(
-    question,
-    k=3
-)
+        # ---------------------------
+        # Retrieve
+        # ---------------------------
 
-# ---------------------------
-# Build Context
-# ---------------------------
+        docs = vector_store.similarity_search(
+            question,
+            k=3
+        )
 
-context = "\n\n".join(
-    [doc.page_content for doc in docs]
-)
+        # ---------------------------
+        # Build Context
+        # ---------------------------
 
-sources = list(
-    set(doc.metadata["source"] for doc in docs)
-)
+        context = "\n\n".join(
+            [doc.page_content for doc in docs]
+        )
 
-# ---------------------------
-# Prompt
-# ---------------------------
+        sources = list(
+            set(doc.metadata["source"] for doc in docs)
+        )
 
-prompt = f"""
+        # ---------------------------
+        # Prompt
+        # ---------------------------
+
+        prompt = f"""
 You are an Affordable Housing expert.
 
 Answer ONLY from the provided context.
@@ -75,16 +82,22 @@ Question:
 {question}
 """
 
-# ---------------------------
-# Generate Answer
-# ---------------------------
+        # ---------------------------
+        # Generate Answer
+        # ---------------------------
 
-response = llm.invoke(prompt)
+        response = llm.invoke(prompt)
+        print("\n" + "=" * 60)
+        print("ANSWER\n")
+        print(response.content)
 
-print("\nANSWER\n")
-print(response.content)
+        print("\nSOURCES\n")
 
-print("\nSOURCES\n")
+        for source in sources:
+            print("-", source)
+#prints all sources
+        print("=" * 60)
 
-for source in sources:
-    print("-", source)
+    except KeyboardInterrupt:
+        print("\n\nExiting Affordable Housing RAG Assistant...")
+        break

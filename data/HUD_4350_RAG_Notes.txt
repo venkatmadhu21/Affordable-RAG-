@@ -1,0 +1,125 @@
+
+AFFD-1001: HUD 4350 - Extracted Notes
+
+CHAPTERS 1-3: INCOME LIMITS
+
+Income Limits
+- Based on the county in which the property is located.
+- The Median Family Income level is based on residents in that specific county, so values vary by state/area.
+- Updated every year.
+- Can be found on HUDUser website.
+
+Important Levels:
+- 80% of Median Income Level = Low Income
+- 50% of Median Income Level = Very Low Income
+- 30% of Median Income Level = Extremely Low Income
+
+NONCITIZENS AND ASSISTANCE
+
+If you are an Ineligible Noncitizen (IN):
+- You cannot receive assistance from HUD.
+- If you are the only household member, you must pay full market rent.
+
+Mixed Households (eligible + non-eligible members):
+- Cannot receive full assistance.
+- Assistance is prorated.
+
+Example:
+- 2 household members.
+- 1 eligible, 1 not eligible.
+- Market rent = $1000.
+- If both were eligible, HUD would pay $600 assistance.
+- Since only 50% are eligible, HUD pays 50% of $600 = $300.
+- Household pays $700/month.
+
+CHAPTER 5: CALCULATING TOTAL TENANT PAYMENT (TTP)
+
+Section 8, PAC, PRAC, and RAP
+
+TTP is the greater of:
+- 30% of monthly adjusted income.
+- 10% of monthly gross income.
+- Welfare rent (as-paid localities only).
+- $25 minimum rent (Section 8 only).
+
+Rules:
+- Section 8, RAP, and PAC applicants can be admitted only if TTP is less than gross rent.
+- In PRAC properties, TTP may exceed PRAC operating rent.
+
+CHAPTER 7: EFFECTIVE DATES OF INTERIMS
+
+Goal:
+- Give tenants at least 30 days notice when rent increases, provided they reported changes timely.
+
+If rent decreases:
+- No 30-day notice required.
+- Example:
+  - Income change: 8/25
+  - Certification effective: 9/1
+
+If rent increases:
+- 30-day notice may be required.
+
+If tenant did NOT report timely:
+- No notice required.
+- Income change 8/25 → 9/1 certification possible.
+
+If tenant DID report timely:
+- 30-day notice required.
+- Income change 8/25 → 10/1 certification.
+
+GROSS RENT CHANGES (GRC)
+
+- Major source of support calls.
+- Usually performed once per year.
+- Affects all tenants in the property.
+- Changes are done by floorplan.
+
+Utility Allowance / Contract Rent:
+- Sometimes only Utility Allowance (UA) or Contract Rent (CR) changes.
+- If UA decreases, Tenant Rent (TR) increases.
+
+Tenant Signatures:
+- Tenants do not need to sign GRC certification unless Tenant Rent increases.
+- Copy of unsigned 50059 must still be provided.
+
+Notice Requirement:
+- If tenant rent increases, tenants must receive at least 30 days notice.
+
+Property Impact:
+- New rent schedule may become effective before tenants start paying the increased rent.
+- Property temporarily absorbs the difference.
+- HUD often reimburses the property.
+
+CHAPTER 8: REPAYMENT PLANS
+
+- Properties request funding for upcoming months while corrections are often made retroactively.
+- Causes include:
+  - Fraud
+  - Honest errors
+  - Reporting issues
+
+Consequences:
+- Tenant may suddenly owe HUD a large amount.
+
+HUD Process:
+- HUD immediately collects the money from the property.
+- Property then attempts to collect from resident.
+
+Repayment Plans:
+- If full collection from tenant is difficult, HUD may allow a repayment plan.
+- HUD may reimburse the property for the lost amount.
+
+CHAPTER 9: EIV
+
+Enterprise Income Verification (EIV)
+
+- System used by clients.
+- Support teams generally do not have direct access.
+
+Common Scenario:
+- Client finds income discrepancy in EIV.
+- Requests help correcting interim certification and reporting to HUD.
+
+Occasional Scenario:
+- Assisting clients in returning money to HUD due to fines related to EIV misuse.
