@@ -9,3 +9,9 @@ chromadb
 sentence-transformers
 python-dotenv
 protobuf==3.20.3
+torch
+torchvision
+transformers
+sentence-transformers
+faiss-cpu
+streamlit
