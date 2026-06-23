@@ -1,10 +1,14 @@
 import streamlit as st
+from rag import ask_question
 
 st.title("Affordable Housing Assistant")
 
-question = st.text_input("Ask a question")
+question = st.text_input(
+    "Ask a question"
+)
 
 if question:
-    # your existing retrieval code
-    answer = ask_question(question)
+    with st.spinner("Searching..."):
+        answer = ask_question(question)
+
     st.write(answer)

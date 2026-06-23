@@ -29,44 +29,21 @@ llm = ChatGoogleGenerativeAI(
 )
 
 # ---------------------------
-# Question
+# Function for Streamlit
 # ---------------------------
-print("\nAffordable Housing RAG Assistant Started!")
-print("Press Ctrl+C to exit.\n")
 
-while True:
-    try:
-        question = input("\nAsk a question: ").strip()
+def ask_question(question):
 
-        if not question:
-            continue
+    docs = vector_store.similarity_search(
+        question,
+        k=3
+    )
 
-        # ---------------------------
-        # Retrieve
-        # ---------------------------
+    context = "\n\n".join(
+        [doc.page_content for doc in docs]
+    )
 
-        docs = vector_store.similarity_search(
-            question,
-            k=3
-        )
-
-        # ---------------------------
-        # Build Context
-        # ---------------------------
-
-        context = "\n\n".join(
-            [doc.page_content for doc in docs]
-        )
-
-        sources = list(
-            set(doc.metadata["source"] for doc in docs)
-        )
-
-        # ---------------------------
-        # Prompt
-        # ---------------------------
-
-        prompt = f"""
+    prompt = f"""
 You are an Affordable Housing expert.
 
 Answer ONLY from the provided context.
@@ -82,22 +59,6 @@ Question:
 {question}
 """
 
-        # ---------------------------
-        # Generate Answer
-        # ---------------------------
+    response = llm.invoke(prompt)
 
-        response = llm.invoke(prompt)
-        print("\n" + "=" * 60)
-        print("ANSWER\n")
-        print(response.content)
-
-        print("\nSOURCES\n")
-
-        for source in sources:
-            print("-", source)
-#prints all sources
-        print("=" * 60)
-
-    except KeyboardInterrupt:
-        print("\n\nExiting Affordable Housing RAG Assistant...")
-        break
+    return response.content
